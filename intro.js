@@ -47,10 +47,10 @@ Wonderful ! From now on you'll never need a calculator anymore.*/
 /************ Exercise 1.2 Define three variables: name, firstName and city.
  * Display them like this: "Your name is Gerard Lambert and you live in Paris.". *************/
 
-// let city = 'Paris'
-// let firstName = 'Gerard'
-// let name = 'Lambert'
-// console.log('Your name is ' + firstName + ' ' + name + ' and you live in ' + city )
+ // let city = 'Paris'
+ // let firstName = 'Gerard'
+ // let name = 'Lambert'
+ // console.log(`Your name is ${firstName} ${name} and you live in ${city} `)
 
 /************ Exercise 1.3 Ask the user to enter its first name and display a message saying "Hello first name". *************/
 
@@ -74,9 +74,9 @@ Wonderful ! From now on you'll never need a calculator anymore.*/
 // console.log(Math.floor(firstNumber) * Math.floor(secondNumber))
 
 /************ Exercise 1.6 Ask two integers to the user. Display the rest of the integer division of the two numbers. *************/
-let firstNumber = readlineSync.question('What is your first number ?');
-let secondNumber = readlineSync.question('What is your second number ?');
-
-console.log(firstNumber % secondNumber)
+// let firstNumber = readlineSync.question('What is your first number ?');
+// let secondNumber = readlineSync.question('What is your second number ?');
+//
+// console.log(firstNumber % secondNumber)
 
 
