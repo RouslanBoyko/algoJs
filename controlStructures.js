@@ -142,24 +142,74 @@ Exercise 2.5
 * (This program should never end as long as the user didn't chose 42).
 * */
 
-let response = 42
-let userResponse = parseInt(readlineSync.question('What is your favorite number ?'))
+// let response = 42
+// let userResponse = parseInt(readlineSync.question('What is your favorite number ?'))
+//
+//
+//
+//     while(userResponse !== response)
+//     {
+//          userResponse = parseInt(readlineSync.question('Are you sure ? try again :) ?'))
+//     }
 
+
+/* **************** Exercise 2.6 **************
+
+
+* Make a program that ask the user to enter a number between 1 and 7.
+* Depending on the number, display the day of the week that correspond. (1 => Monday, 2 => Tuesday, etc...)
+ */
+
+/*
+let userResponse = parseInt(readlineSync.question('Choose a number between 1 and 7'))
+
+if (userResponse === 1)
 {
-    if (userResponse === response)
-    {
-        console.log('Bravo, you know the answer of the universe !!!')
-    }
-    while(userResponse !== response)
-    {
-        let userResponse = readlineSync.question('Are you sure ? try again :) ?')
-    }
-
+    console.log("It's monday !")
+}
+else if(userResponse === 2)
+{
+    console.log("It's tuesday !")
+}
+else if(userResponse === 3)
+{
+    console.log("It's wednesday !")
+}
+else if(userResponse === 4)
+{
+    console.log("It's thursday !")
+}
+else if(userResponse === 5)
+{
+    console.log("It's friday !")
+}
+else if(userResponse === 6)
+{
+    console.log("It's saturday !")
+}
+else if(userResponse === 7)
+{
+    console.log("It's sunday !")
+}
+else
+{
+    console.log("Not a right number")
 }
 
+*/
 
+/* **************** Exercise 2.7 **************
 
+Make a program that ask the user to enter a number named n.
+Then ask him n time to enter a new number. At the end display the sum of all the numbers collected this way.
+Example: If the user enters 3 for n then 1, 2 and 3, the program should display 6.
+ */
 
-
-
-
+// let userResponse = parseInt(readlineSync.question('give one small number'))
+// let total = 0
+// for (let n = 1; n<=userResponse ;n++)
+// {
+//     total += n // total = total + n
+//     console.log(n)
+// }
+// console.log('résultat ' + total)
