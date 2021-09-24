@@ -75,10 +75,6 @@
  let maxAge = parseInt(readlineSync.question('What is the maxAge ?'))
  let currentAge = parseInt(readlineSync.question('What is the currentAge ?'))
 
-// let minAge = 1
-// let maxAge = 100
-// let currentAge = 27
-
 if ((currentAge >= minAge) && (currentAge < maxAge))
 {
     console.log(currentAge +' is Between ' + minAge + ' and ' + maxAge)
@@ -102,17 +98,22 @@ else
 The second one should use for and make a loop that will execute 50 times.
  */
 
-// let i = 2
+// let i = 1
 // while (i <= 100)
 // {
-//     console.log(i)
-//     i += 2;
-// }
+//  if (i % 2 === 0)
+//  {
+//   console.log(i)
+//  }
+//  i++
+//}
 
-// for (let i = 2 ; i<=50 ; i+=2)
-// {
-//     console.log(i)
-// }
+
+ // for (let i = 0 ; i<=100 ; i+=2)
+ // {
+ //     console.log(i)
+ // }
+
 
 /* **************** Exercise 2.4 ***************
 
@@ -144,9 +145,7 @@ Exercise 2.5
 
 // let response = 42
 // let userResponse = parseInt(readlineSync.question('What is your favorite number ?'))
-//
-//
-//
+
 //     while(userResponse !== response)
 //     {
 //          userResponse = parseInt(readlineSync.question('Are you sure ? try again :) ?'))
