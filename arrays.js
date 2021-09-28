@@ -57,7 +57,7 @@
 // let copyArray = arr.slice();
 // console.log(copyArray)
 
-/*************************** Exercise 3.3 *******************************
+/*************************** Exercise 3.4 *******************************
 
  Write a program that will display the minimum and maximum elements of a given array.
  */
@@ -66,3 +66,4 @@
 //
 // console.log(Math.min(...arr))
 // console.log(Math.max(...arr))
+
