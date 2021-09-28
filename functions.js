@@ -22,7 +22,7 @@ const readlineSync = require("readline-sync");
  Write a documentation for the rand10() function.
 
  You will have to search on Google how to generate random numbers in JavaScript for this exercise.
- */
+
 
 // let rand10 = () => Math.floor(Math.random() * 11) // this function returns a random number between 0 and 10
 // console.log(rand10())
@@ -37,10 +37,10 @@ const readlineSync = require("readline-sync");
  to generate then display that same number of random numbers.
  */
 
-// let rand10 = () => Math.floor(Math.random() * 11)
-// let multiRand = Array.from(Array(rand10()).keys()) // returns an array with index from 0 to 10
-//
-// console.log(multiRand)
+ let rand10 = () => Math.floor(Math.random() * 11)
+ let multiRand = Array.from(Array(rand10()).keys()) // returns an array with index from 0 to 10
+
+ console.log(multiRand)
 
 
 /**************** Exercise 4.4  ***********************

@@ -33,6 +33,7 @@ askTvSerie() */
  Create a program that will use randomizeCast(tvSerie) and askTvSerie() to ask the user about a TV serie
  then display a randomized list of the previous cast that will form the new cast of your next serie. */
 
+/*
 let askTvSerie = () =>
 {
     let name = readlineSync.question('What is the film name ?')
@@ -47,6 +48,31 @@ let askTvSerie = () =>
     }
     randomizeCast()
 }
-askTvSerie()
+askTvSerie() */
+
+/*
+function randomizeCast(tvSerie) {
+    tvSerie.cast.sort(() => Math.random() - 0.5)
+    return tvSerie
+}
+
+
+function askTvSerie() {
+    let tvSerie = {}
+    let entry = ""
+    tvSerie.name = readlineSync.question("Name ? ")
+    tvSerie.year = parseInt(readlineSync.question("Production year ? "))
+    tvSerie.cast = []
+    do  {
+
+        entry = readlineSync.question("Cast name (type 'stop' to stop) : ")
+        if (entry !== "stop") {
+            tvSerie.cast.push(entry)
+        }
+    } while (entry !== "stop")
+    return JSON.stringify(randomizeCast(tvSerie))
+}
+console.log(askTvSerie())
+*/
 
 
