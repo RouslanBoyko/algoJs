@@ -1,12 +1,13 @@
 const readlineSync = require("readline-sync");
+
 /**************** Exercise 4.1 ***************************
  Create a function named calcSurface that takes the length and width of a rectangle and returns its surface.
  Then create a program that asks the length and width of a rectangle to the user then displays the surface of that rectangle.
  That program must use the function you created.
 
  Write a documentation for the calcSurface function. */
-// const readlineSync = require("readline-sync");
-//
+
+
 // let calcSurface = (a,b) => length * width
 //
 // let length = parseInt(readlineSync.question('What is the rectangle length ?'))
@@ -21,11 +22,11 @@ const readlineSync = require("readline-sync");
  Create a program that will display the result of that function each time it is run.
  Write a documentation for the rand10() function.
 
- You will have to search on Google how to generate random numbers in JavaScript for this exercise.
+ You will have to search on Google how to generate random numbers in JavaScript for this exercise. */
 
 
-// let rand10 = () => Math.floor(Math.random() * 11) // this function returns a random number between 0 and 10
-// console.log(rand10())
+ // let rand10 = () => Math.floor(Math.random() * 11) // this function returns a random number between 0 and 10
+ // console.log(rand10())
 
 /**************** Exercise 4.3  ***************************
 
@@ -37,10 +38,10 @@ const readlineSync = require("readline-sync");
  to generate then display that same number of random numbers.
  */
 
- let rand10 = () => Math.floor(Math.random() * 11)
- let multiRand = Array.from(Array(rand10()).keys()) // returns an array with index from 0 to 10
-
- console.log(multiRand)
+// let rand10 = () => Math.floor(Math.random() * 11)
+// let multiRand = Array.from(Array(rand10()).keys()) // returns an array with index from 0 to 10
+//
+// console.log(multiRand)
 
 
 /**************** Exercise 4.4  ***********************
@@ -110,8 +111,8 @@ const multiRand = n =>
 const userResponse = readlineSync.question("How many random numbers do you want in the array? ");
 const array = multiRand(userResponse);
 console.log(array);
-console.log("average:", average(array), "\min:", min(array), "\max:", max(array));  */
-
+console.log("average:", average(array), "\min:", min(array), "\max:", max(array));
+*/
 
 /**************** Exercise 4.5  **********************
 Create a function named calcDistance which takes the coordinates of two different points A and B in a 2D space.
@@ -145,13 +146,13 @@ function Point(x,y)
 let newPoint = new Point (10,100)
 let nextPoint = new Point (20,25)
 
-console.log(newPoint.calcDistance(nextPoint))  */
-
+console.log(newPoint.calcDistance(nextPoint))
+*/
 /**************** Exercise 4.6  **********************
 Create a function factorial(a) that returns the factorial of a number.
  That function must be recursive. */
 
-/*
+
 function factorial(a)
 {
     if (a === 0)
@@ -160,5 +161,5 @@ function factorial(a)
     { return a * factorial( a - 1 ); }
 }
 
-console.log(factorial(12)) */
+console.log(factorial(4))
 

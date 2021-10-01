@@ -4,7 +4,7 @@ const readlineSync = require("readline-sync");
 
 Create a function named askTvSerie() that will ask the user for the following data about its favorite TV serie:
 
-    Name
+ Name
 Production year
 Names of the cast members (there can be as much as the user want)
 That function must gather all the data in a single object and return it. The data structure must be elegant.
@@ -12,7 +12,7 @@ That function must gather all the data in a single object and return it. The dat
     Create a program that use that function to generate a TV serie object and display it to the user in JSON format.
 */
 
-/*
+
 let askTvSerie = () =>
 {
     let name = readlineSync.question('What is the film name ?')
@@ -21,7 +21,7 @@ let askTvSerie = () =>
     let film = {name: name, productionYear: productionYear, castMembers: castMembers}
     console.log(film)
 }
-askTvSerie() */
+askTvSerie()
 
 
 /************************** Exercise 5.2 ***********************
@@ -48,9 +48,9 @@ let askTvSerie = () =>
     }
     randomizeCast()
 }
-askTvSerie() */
+askTvSerie()
 
-/*
+
 function randomizeCast(tvSerie) {
     tvSerie.cast.sort(() => Math.random() - 0.5)
     return tvSerie
@@ -73,6 +73,6 @@ function askTvSerie() {
     return JSON.stringify(randomizeCast(tvSerie))
 }
 console.log(askTvSerie())
+
+
 */
-
-
